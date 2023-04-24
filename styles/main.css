@@ -1,0 +1,72 @@
+body {
+    background-color: #404040;
+}
+
+.my-title{
+    display: flex;
+    justify-content: center;
+    color: #f2f2f2;
+}
+
+.fishList {
+    /* border: 5px solid salmon; */
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-basis: calc(100%/2-50px);
+    margin: auto; */
+
+}
+
+.fish-caption{
+    width: 220px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid black; */
+}
+
+.fish-image{
+    width: 200px;
+    height:auto;
+    margin: 3%;
+    /* margin-top: 30px; */
+    
+}
+.fishcard{
+    /* border: dotted yellowgreen; */
+    background-color: rgba(0, 255, 255, 0.781);
+    display: flex;
+    flex-flow: column wrap;
+    width: 230px;
+    margin: 5px;
+}
+
+aside {
+    border: 5px solid rgba(0, 0, 255, 0.719);
+    display: block;
+    /* float: right; */
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100%;
+    background-color: rgba(127, 255, 212, 0.767);
+    
+}
+
+.locationList{
+    /* border: 5px solid green; */
+    color: #f2f2f2;
+}
+
+.top-body{
+    /* border: 10px solid black; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-body{
+    /* border: 10px chocolate; */
+    display: flex;
+    flex-direction: row;
+}
